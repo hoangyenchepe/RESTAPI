@@ -12427,37 +12427,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yen.vo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Yen\\Personal\\Code\\RESTAPI\\Tweetbook\\Tweetbook\\Tweetbook.csproj",
+      "projectUniqueName": "C:\\Yen\\Personal\\Code\\RESTAPI\\Tweetbook\\Tweetbook\\Tweetbook.csproj",
       "projectName": "Tweetbook",
-      "projectPath": "D:\\Yen\\Personal\\Code\\RESTAPI\\Tweetbook\\Tweetbook\\Tweetbook.csproj",
-      "packagesPath": "C:\\Users\\yen.vo\\.nuget\\packages\\",
-      "outputPath": "D:\\Yen\\Personal\\Code\\RESTAPI\\Tweetbook\\Tweetbook\\obj\\",
+      "projectPath": "C:\\Yen\\Personal\\Code\\RESTAPI\\Tweetbook\\Tweetbook\\Tweetbook.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Yen\\Personal\\Code\\RESTAPI\\Tweetbook\\Tweetbook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\yen.vo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "http://nuget-dev.tekcent.com/api/odata": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "projectReferences": {}
         }
       },
@@ -12469,6 +12467,7 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
+        "targetAlias": "netcoreapp2.2",
         "dependencies": {
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
@@ -12493,10 +12492,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
