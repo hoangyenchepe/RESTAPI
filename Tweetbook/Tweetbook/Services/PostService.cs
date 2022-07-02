@@ -22,6 +22,16 @@ namespace Tweetbook.Services
             }
         }
 
+        public bool DeletePost(Guid postId)
+        {
+            var post = GetPostById(postId);
+            if (post == null)
+                return false;
+
+            _posts.Remove(post);
+            return true;
+        }
+
         public Post GetPostById(Guid postId)
         {
             return _posts.SingleOrDefault(x => x.Id == postId);

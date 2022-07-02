@@ -46,8 +46,23 @@ namespace Tweetbook.Controllers.V1
 
             bool updated = _postService.UpdatePost(post);
             if (updated)
+
             {
                 return Ok(post);
+            }
+
+            return NotFound();
+        }
+
+        [HttpDelete(ApiRoutes.Posts.Delete)]
+        public IActionResult Delete([FromRoute]Guid postId)
+        {
+
+
+            bool deleted = _postService.DeletePost(postId);
+            if (deleted)
+            {
+                return NoContent();
             }
 
             return NotFound();
