@@ -25,8 +25,4 @@ C:\Yen\Personal\Code\RESTAPI\Tweetbook\Tweetbook\obj\Debug\netcoreapp2.2\Tweetbo
 C:\Yen\Personal\Code\RESTAPI\Tweetbook\Tweetbook\obj\Debug\netcoreapp2.2\Tweetbook.RazorTargetAssemblyInfo.cache
 C:\Yen\Personal\Code\RESTAPI\Tweetbook\Tweetbook\obj\Debug\netcoreapp2.2\Tweetbook.dll
 C:\Yen\Personal\Code\RESTAPI\Tweetbook\Tweetbook\obj\Debug\netcoreapp2.2\Tweetbook.pdb
-C:\Yen\Personal\Code\RESTAPI\Tweetbook\Tweetbook\bin\Debug\netcoreapp2.2\appsettings.Development.json
-C:\Yen\Personal\Code\RESTAPI\Tweetbook\Tweetbook\bin\Debug\netcoreapp2.2\appsettings.json
-C:\Yen\Personal\Code\RESTAPI\Tweetbook\Tweetbook\obj\Debug\netcoreapp2.2\Tweetbook.csproj.AssemblyReference.cache
-C:\Yen\Personal\Code\RESTAPI\Tweetbook\Tweetbook\obj\Debug\netcoreapp2.2\Tweetbook.GeneratedMSBuildEditorConfig.editorconfig
-C:\Yen\Personal\Code\RESTAPI\Tweetbook\Tweetbook\obj\Debug\netcoreapp2.2\Tweetbook.genruntimeconfig.cache
+C:\Yen\Personal\Code\RESTAPI\Tweetbook\Tweetbook\obj\Debug\netcoreapp2.2\Tweetbook.csprojAssemblyReference.cache
